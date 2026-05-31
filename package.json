@@ -9,7 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "fmt": "oxfmt",
-    "fmt:check": "oxfmt --check"
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
   "dependencies": {
     "@nuxt/icon": "^2.2.1",
@@ -19,6 +21,7 @@
     "vue-router": "^5.0.6"
   },
   "devDependencies": {
-    "oxfmt": "^0.52.0"
+    "oxfmt": "^0.52.0",
+    "oxlint": "^1.67.0"
   }
 }
