@@ -1,0 +1,23 @@
+@use 'sass:color';
+
+$base-color: color.adjust(#ede1d5, $lightness: 10%);
+
+$background-color-1: color.adjust($base-color, $lightness: 10%);
+$background-color-2: color.adjust($base-color, $lightness: 5%);
+$background-color-3: $base-color;
+$background-color-4: color.adjust($base-color, $lightness: -8%);
+$background-color-5: color.adjust($base-color, $lightness: -50%);
+
+$background-color-alternate: $background-color-4;
+$background-color-default: $background-color-3;
+
+$background-color-dark: #232328;
+
+$accent-color: #9c8c7a;
+$accent-color-light: #bdafa0;
+$accent-color-dark: #9c8c7a;
+
+$primary-button-color: #ffffff;
+$primary-button-background-color: color.adjust($base-color, $lightness: -60%);
+$primary-button-hover-background-color: color.adjust($base-color, $lightness: -55%);
+$primary-button-active-background-color: color.adjust($base-color, $lightness: -65%);
