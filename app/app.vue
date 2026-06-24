@@ -23,8 +23,8 @@ useHead({
             info@krisenseelsorge-roth.de
           </a>
           <span class="footer-content__gap"></span>
-          <NuxtLink class="footer-content__link" to="impressum">Impressum</NuxtLink>
-          <NuxtLink class="footer-content__link" to="datenschutz">Datenschutz</NuxtLink>
+          <NuxtLink class="footer-content__link" to="/impressum">Impressum</NuxtLink>
+          <NuxtLink class="footer-content__link" to="/datenschutz">Datenschutz</NuxtLink>
         </div>
       </footer>
     </main>
